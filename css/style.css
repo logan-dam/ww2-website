@@ -7,31 +7,73 @@ body{
    background-color:white;
 }
 h1{
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: black;
+    font-size:75px ;
+    font-family: USN Stencil Font;
+    font-weight: bold;
+    text-shadow: 9px 9px 5px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
 }
 header{
-    background-color: grey;
+    width:100vw;
+    height:30vh;
+    background-image:url("../images/header.jpg") ;
+     background-size: cover; /* Resize the background image to cover the entire container */
+     margin: 0;
+     padding: 0;
 }
-.navbar ul{
+nav{
+  width:100vw;
+    height:10vh;
+    background-color: black;
+}
+nav ul{
     list-style-type: none;
     background-color: black;
     padding: 0px;
     margin: 0px;
     overflow: hidden; 
 }
-.navbar a{
+nav a{
     color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;    
 }
-.navbar a:hover{
+nav a:hover{
     background-color: grey;
 }
-.navbar li{
+nav li{
     float: left;
 }
-section{
+main{
+  width:100vw;
+    height:60vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left{
+    width:15vw;
+    height:70%;
+    margin-left: 5vw;
+    
+}
+.right{
+    width:15vw;
+    height:70%;
+    margin-right: 1vw;
+   
+}
+.middle{
+    width:58vw;
+    height:88%;
+    align-items: center;
+    margin: 10vh 1vw ;
     
 }
