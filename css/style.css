@@ -4,7 +4,7 @@ body{
    font-family: 'Roboto',sans-serif;
    justify-content: center;
    align-items: center;
-   background-color:white;
+   background-color:grey;
 }
 h1{
     margin: 0;
@@ -16,6 +16,7 @@ h1{
     font-weight: bold;
     text-shadow: 9px 9px 5px rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
+    text-decoration: none;
 }
 header{
     width:100vw;
@@ -56,24 +57,44 @@ main{
     height:60vh;
     background-color:grey;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 .left{
-    width:15vw;
-    height:70%;
-    margin-left: 5vw;
-    
+    width:18vw;
+    height:70%;   
+    text-align:center;
 }
 .right{
-    width:15vw;
-    height:70%;
-    margin-right: 1vw;
-   
+    width:18vw;
+    height:70%;  
+    text-align:center;   
 }
 .middle{
-    width:58vw;
+    width:64vw;
     height:88%;
-    align-items: center;
-    margin: 10vh 1vw;    
+    align-items: center; 
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-family:Rockwell ;
+    font-size:30px ;
+    color: black;
+}
+.hometext{
+    width:62vw;
+    height:90%;
+    align-items: center; 
+    padding: 0 100px;
+    background-color: lightgray;
+    box-sizing: border-box;  
+}
+h2{
+    font-family:Rockwell ;
+    font-size:36px ;
+    color: black;
 }
